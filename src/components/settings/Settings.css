@@ -26,3 +26,9 @@
     display: flex;
     justify-content: flex-end;
 }
+
+@media only screen and (max-width: 600px) {
+    .settings .settings-form{
+        width: 100%;
+    }
+}

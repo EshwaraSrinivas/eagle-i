@@ -1,0 +1,35 @@
+.applications{
+    height: 100vh;
+    margin-top: 10% !important;
+}
+
+.applications .test-status{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.applications .test-status .button-status{
+    background-color: black;
+    color: white;
+    margin-bottom: 5%;
+    margin-right: 0px !important;
+}
+
+.applications .ui.divided.list>.item{
+    border-top: 1px solid rgba(34,36,38,0.55) !important;
+}
+
+.applications .list .item .content .header{
+    margin-bottom: 2%;
+    color: white !important;
+}
+
+.applications .ui.divided.list>.item:first-child{
+    border-top: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .applications{
+        margin-top: 20% !important;
+    }
+}
