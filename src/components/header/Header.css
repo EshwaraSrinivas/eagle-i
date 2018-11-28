@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header .links{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.header .links a{
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.header .links .settings-button{
+    background-color: black;
+}
+
+/*.header .links a:hover{
+    background: rgb(89, 5, 168);
+}*/
