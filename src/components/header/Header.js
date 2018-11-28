@@ -9,15 +9,15 @@ class Header extends React.Component {
         <ul className="links">
           <li>
             <Link to="/settings">
-              <button class="circular ui icon button settings-button">
-                <i class="icon settings big yellow" />
+              <button className="circular ui icon button settings-button">
+                <i className="icon settings big teal" />
               </button>
             </Link>
           </li>
           <li>
             <Link to="/profile">
-              <button class="circular ui icon button settings-button">
-                <i class="icon user big yellow" />
+              <button className="circular ui icon button settings-button">
+                <i className="icon user big teal" />
               </button>
             </Link>
           </li>
