@@ -1,1 +1,1 @@
-Eagle-I
+Eagle-I - Hackathon project
