@@ -5,6 +5,7 @@ import Header from '../src/components/header/Header';
 import Settings from '../src/components/settings/Settings'
 import Profile from './components/profile/Profile';
 import Home from './components/home/Home';
+import Login from './components/login/login';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <div className="app ui container">
           <Header />
           <Route exact={true} path="/" component={Home} />
+          <Route path="/login" component={Login}></Route>
           <Route path="/profile" component={Profile}></Route>
           <Route path="/settings" component={Settings}></Route>
         </div>
