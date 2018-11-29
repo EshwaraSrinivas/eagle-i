@@ -22,7 +22,7 @@ class Header extends React.Component {
             </Link>
           </li>
           <li>
-            <Link to="/profile">
+            <Link to="/login">
               <button className="circular ui icon button settings-button">
                 <i className="icon user big black" />
               </button>
