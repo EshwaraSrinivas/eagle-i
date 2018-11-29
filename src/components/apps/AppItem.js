@@ -5,7 +5,7 @@ const appList = ({app}) => {
         <div className="item">
             <i className={`large ${app.appname} middle aligned icon`}></i>
             <div className="content">
-                <a className="header">{app.appname}</a>
+                <a className="header" href={app.appurl}>{app.appname}</a>
                 <div className="description">Updated 10 mins ago</div>
             </div>
         </div>

@@ -10,7 +10,7 @@
     padding: 0px;
 }
 
-.header .links a{
+.header .links span{
     color: black;
     font-weight: bold;
 }

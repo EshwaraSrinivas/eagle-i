@@ -10,10 +10,7 @@ class Header extends React.Component {
         <ul className="links">
           <li>
             <Link to="/">
-              <a href="#">
-                <img className="ui avatar image logo" src={Image} alt="" />
-                Eagle-I
-              </a>
+              <span><img className="ui avatar image logo" src={Image} alt="" />Eagle-I</span>
             </Link>
           </li>
           <div className="spacer" />

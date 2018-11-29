@@ -17,7 +17,7 @@ class AppsList extends React.Component{
     render(){
         const renderedList = apps.map((app) => {
             return (
-                <AppItem app={app}/>
+                <AppItem key={app.appname} app={app}/>
             );
         })
 
