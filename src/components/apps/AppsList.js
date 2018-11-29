@@ -1,5 +1,6 @@
 import React from 'react';
 import AppItem from './AppItem';
+import './AppsList.css';
 
 const apps = [
     {
