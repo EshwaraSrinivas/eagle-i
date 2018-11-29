@@ -1,0 +1,15 @@
+.center-text{
+    text-align: center;
+}
+
+.login-main{
+    margin-top: 15% !important;
+    width: 30% !important;
+}
+
+.login-header{
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+}
